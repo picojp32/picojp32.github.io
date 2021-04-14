@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #D0E2F2;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 32px;
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+	font-weight:bold;
+	font-size: 2rem;
+	margin-top: 2rem;
+	display: flexbox;
+  padding-top: 0;
+}
+
+fieldset{
+  border: 1px solid black;
+	border-radius: 10px;
+  justify-content: center;
+}
+
+aside{
+  border: 5px solid black;
+  align-items: center;
+  background-color:#8FB6D9;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 5px 40px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 5px 40px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 5px 40px 0px rgba(0, 0, 0, 1);
+  display: block;
+  float: right;
+  text-align: center;
+  width: 50%;
+  margin:0 0 30px 60px;
+  Padding:0;
+}
+
+footer {
+  background-color: #88959E;
+  margin: auto;
+  padding:10px;
+  text-align: center;
+  font-size: 0.8rem;
+  border-top: 3px solid #777;
+  border: 5px solid white;
+}
+
+footer li{
+  display:inline-block;
+}
+
+.card {
+  align-items: center;
+  background-color:#8FB6D9;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 5px 40px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 5px 40px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 5px 40px 0px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 50px 0 50px 0; 
+  padding: 35px;
+  width: 60%;
+}
+
+.secton-left{
+  flex-basis: 40%;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+.section-right{
+  font-size: 2rem;
+  flex-basis: 60%;
+  margin-top: 3.75rem;
+}
+
+.home-wrapper {
+  margin: auto;
+  background-color: #BDCFDB;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.about-wrapper {
+  font-size: 1rem;
+	padding: 2em;
+	display: flex;
+	flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.contact-wrapper {
+  font-size: 1rem;
+	padding: 2em;
+	display: flex;
+  flex-direction: column;
+	background-color: #BDCFDB;
+  padding:auto;
+  width:50%;
+  margin: 100px auto;
+  border: 5px solid #3F5361;
+  border-radius: 10px
+}
+
+.about-card{
+  border: 5px solid black;
+  align-items: center;
+  background-color:#8FB6D9;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 5px 40px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 5px 40px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 5px 40px 0px rgba(0, 0, 0, 1);
+  display: block;
+  justify-content: center;
+  margin: 0 0 30px 0; 
+  padding: 50px 10px ;
+  width: 50%;
+}
+
+.profile-image {
+  flex-basis: 40%;
+  text-align: center;
+  padding-right: 0.5rem;
+  border-radius: 100%;
+  color: white;
+  height: 250px;
+  margin: 50px;
+  width: 250px;
+}
+
+.bar ul{
+  background-color: #777;
+  font-size: 2rem;
+  font-style: bold;
+  list-style-type: none;
+  text-align: center;
+  margin:0;
+  padding: 0; 
+}
+.bar li{
+  display:inline-block;
+  text-align: center;
+}
+.bar a{
+  text-decoration: none;
+  color:#4d241f;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.bar a:hover{
+  background-color: rgba(128, 128, 128, 0.829);
+  color: #a61f11;
+  text-decoration: none;
+}
+.elements{
+  background-color: #3F5361;
+  border-top: 2px solid white;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+  padding-top: 10;
+  width: auto;
+}
+.elements ul{
+  background-color: #3F5361;
+  align-items: center;
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.elements li{
+  display:inline-block;
+  text-align: center;
+}
+
+.elements a{
+  border: 1px sold black;
+  text-decoration: none;
+  color:#73352e;
+  display: block;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.my-name{
+  text-align: center;
+}
+
+.my-course{
+  text-align: center;
+}
+
+.gallery-img {
+  display: none;
+  max-height: 600px;
+}
+
+.active {
+  display: block;
+}
+
+.image-gallery{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn{
+  background-color: midnightblue;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev{
+  margin-right: 15px;
+}
+
+.btn:disabled{
+  background-color: #777;
+  cursor:not-allowed;
+}

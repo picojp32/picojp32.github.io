@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="./style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class= "bar">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class= "elements">
+          <ul>
+            <li><a href="#"><img src="img/icon1.png" alt="Social Media 1." title="LinkedIn"></a></li>
+            <li><a href="#"><img src="img/icon2.png" alt="Social Media 2." title="GitHub"></a></li>
+            <li><a href="#"><img src="img/icon3.png" alt="Social Media 3." title="StackOverFlow"></a></li>
+          </ul>
+        </nav>
+    </header> 
+    <div class="contact-wrapper">
+		<section>
+			<h1>Additional Information</h1>
+			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+			<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES " method="POST">
+				<input type="hidden" name="send_to" value="Jonathan.Picovsky@gmail.com">
+				<fieldset>
+					<legend>Your contact information</legend>
+					<label for="name">First Name</label>
+						<input type="text" id="name" name="name">
+                    <label for="name">Last Name</label>
+						<input type="text" id="name" name="name">  
+					<label for="email">Email</label>
+						<input type="email"	id="email" name="email">
+				</fieldset>
+				<fieldset>
+					<legend>Suggestions</legend>
+						<label for="comments"></label>
+						<textarea id="comments" name="comments" placeholder="Tell me Everything">Enter you Comments Here!</textarea>
+					<label>
+						<input type="checkbox" value="subscribe" name="subscribe" >Add me to you email list
+					</label>
+				</fieldset>
+			<button type="submit">Order you Abduction</button>
+			</form>			
+		</section>
+</body>
+</html>
